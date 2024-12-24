@@ -67,6 +67,8 @@ FULL SUBTRACTOR
 
 **Program:**
 
+
+```
 module fulladdsub(a,b,c,sum,carry,diff,borrow);
 
 input a,b,c;
@@ -100,6 +102,7 @@ and g5(w7, b, c);
 or g6(borrow, w5, w6, w7); 
 
 endmodule
+```
 
 **RTL Schematic**
 
